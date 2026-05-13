@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FarmacoCell</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="background"></div>
+
+<header>
+<h1>
+  <img src="./assets/drugs.png" alt="ilustração de comprimidos" id="drug_icon">
+  DrugStack
+</h1>
+<p>Fontes farmacológicas: 
+  <a href="https://www.guidetopharmacology.org/index.jsp">IUPHAR/BPS</a> 
+  e 
+  <a href="https://pubchem.ncbi.nlm.nih.gov/">PubChem</a>
+</p>
+<p>Organize corretamente:</p>
+<small>Medicamento → Mecanismo → Classe farmacológica</small>
+</header>
+
+<main>
+
+<section class="deck-wrapper">
+<h2>Cartas embaralhadas</h2>
+<div id="cards-container"></div>
+</section>
+
+<section class="board">
+<div class="column"><h3>Pilha 1</h3></div>
+<div class="column"><h3>Pilha 2</h3></div>
+<div class="column"><h3>Pilha 3</h3></div>
+<div class="column"><h3>Pilha 4</h3></div>
+</section>
+
+<button id="check-btn">Verificar combinações</button>
+<div id="result"></div>
+
+</main>
+
+<footer>
+  <a href="https://www.flaticon.com/free-icons/medicine" title="medicine icons">Medicine icons created by Freepik - Flaticon</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
